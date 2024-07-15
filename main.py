@@ -21,7 +21,7 @@ def register_agent(agent_data):
     try:
         # Open the registration URL
         driver.get("http://localhost:5002/")
-        login_user()
+        login_user("user", "Pass")
         print("URL opened successfully")
 
         # Fill in the registration form

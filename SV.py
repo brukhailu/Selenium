@@ -24,7 +24,7 @@ def registration_form():
             <input type="text" id="phone" name="phone" required><br><br>
             <label for="address">Address:</label>
             <input type="text" id="address" name="address" required><br><br>
-            <input type="submit" value="Register">
+            <input type="submit" id="submit"  value="Register">
         </form>
     </body>
     </html>
